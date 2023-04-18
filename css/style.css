@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.fcontain{
+    margin: 0;
+    display: flex;
+    background-color: black;
+    justify-content: end;
+    height:50px;
+    position: relative;
+    position: static;
+}
+.fitem{
+    color:white;
+    padding:13px;
+    margin: 0 34px 0 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: larger;
+}
+p{
+    display: inline-block;
+}
+.item1{
+    align-content: baseline;
+}
+.item0{
+    position:absolute;
+    left:0px;
+    margin: 0;
+    font-size: 22px;
+    font-family: 'Permanent Marker', cursive;
+    padding: 8px;
+    color:orangered;
+}
+.fitem:hover:not(.item0){
+    background-color: grey;
+    cursor: pointer;
+}
